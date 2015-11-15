@@ -1,0 +1,31 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <com.sivulskiy.imagesearchtesttask.utils.GridImage
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/grid_image_view"
+        android:background="#000000"
+        android:scaleType="centerCrop"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid_checkbox"
+        android:layout_gravity="end" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/grid_text"
+        android:layout_gravity="left|center_vertical|bottom"
+        android:layout_marginLeft="15dp"
+        android:maxLines="2"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/primary_material_light"
+        android:layout_marginRight="15dp" />
+</FrameLayout>
