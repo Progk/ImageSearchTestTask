@@ -1,4 +1,4 @@
-package com.sivulskiy.imagesearchtesttask.utils;
+package com.sivulskiy.imagesearchtesttask.customviews;
 
 import android.content.Context;
 import android.util.AttributeSet;

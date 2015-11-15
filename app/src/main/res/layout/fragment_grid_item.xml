@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-    <com.sivulskiy.imagesearchtesttask.utils.GridImage
+    <com.sivulskiy.imagesearchtesttask.customviews.GridImage
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:id="@+id/grid_image_view"
